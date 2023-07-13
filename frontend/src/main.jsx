@@ -4,7 +4,7 @@ import App from "./App";
 import "./styles/app.scss";
 import { createContext } from "react";
 
-export const server = process.env.BACKEND_URL;
+export const server = `${process.env.BACKEND_URL}`;
 
 export const Context = createContext({ isAuthenticated: false });
 
