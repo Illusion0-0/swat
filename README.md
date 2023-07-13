@@ -11,7 +11,7 @@ but it lacked:
 - account system (user)
 
 Hence, the current implementation:
-- MVC architecture (Models/Controllers/Routes)
+- MVC architecture (Models/Routes/Controllers)
 - CRUD operation on user/task
 - auth (cookie,jwt,bcrypt)
 - user/tasks in different collections in MongoDB
