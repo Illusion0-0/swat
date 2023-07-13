@@ -4,7 +4,7 @@ import App from "./App";
 import "./styles/app.scss";
 import { createContext } from "react";
 
-export const server = `${process.env.REACT_APP_BACKEND_URL}`;
+export const server = `https://swatback.onrender.com/api/v1`;
 
 export const Context = createContext({ isAuthenticated: false });
 
